@@ -512,6 +512,20 @@ Signature 에는 헤더, 페이로드를 Base64 URL-safe 인코드를 한 이후
 </details>
 
 <details>
+<summary>웹 통신의 큰 흐름 https://www.google.com/ 을 접속할 때 일어나는 일</summary>
+<div markdown="1">
+
+</div>
+</details>
+
+<details>
+<summary>MSA 아키텍처에 대해 아는데로 설명하시오</summary>
+<div markdown="1">
+
+</div>
+</details>
+
+<details>
 <summary> </summary>
 <div markdown="1">
 
