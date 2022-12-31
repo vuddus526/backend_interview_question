@@ -225,6 +225,41 @@ DB 테이블 간에 중복된 데이터를 허용하지 않아 무결성을 유�
 </details>
 
 <details>
+<summary>RDBMS, NoSQL, in memory 에대해</summary>
+<div markdown="1">
+
+</div>
+</details>
+
+<details>
+<summary>DB를 사용하는 이유</summary>
+<div markdown="1">
+
+</div>
+</details>
+
+<details>
+<summary>이상현상이란?</summary>
+<div markdown="1">
+
+</div>
+</details>
+
+<details>
+<summary>Redis의 작동원리 및 프로젝트에 왜 사용했는지?</summary>
+<div markdown="1">
+
+</div>
+</details>
+
+<details>
+<summary>Redis 와 Memcached의 차이에 대해서 설명해주세요</summary>
+<div markdown="1">
+
+</div>
+</details>
+
+<details>
 <summary> </summary>
 <div markdown="1">
 
