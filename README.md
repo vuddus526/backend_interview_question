@@ -344,6 +344,14 @@ JPA는 자바 진영의 ORM 기술 표준으로 DB와 객체지향 개발을 연
 </details>
 
 <details>
+<summary>ORM이란 무엇인가요?</summary>
+<div markdown="1">
+<p>객체와 관계형 데이터베이스의 데이터를 자동으로 매핑(연결)해주는 것을 말합니다</p>
+<p>이를 이용해 패러다임 불일치를 개발자 대신 해결해줍니다</p>
+</div>
+</details>
+
+<details>
 <summary>JPA의 더티 체킹이란 무엇인가요?</summary>
 <div markdown="1">
 jpa에서 트랜잭션이 끝나는 시점에 변화가 있는 모든 엔티티 객체를 DB에 자동 반영 시켜주는 것을 말합니다
