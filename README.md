@@ -325,9 +325,34 @@ Redis는 list, hash, set 등 다양한 자료구조를 제공하여
 </details>
 
 <details>
-<summary> </summary>
+<summary>NoSQL은 언제 쓰나요?</summary>
 <div markdown="1">
+스키마에 구애받을 필요가 없어 데이터를 편하게 밀어 넣어두고 쓰기 편해
+중간 분석 데이터나 최종적으로 사용할 데이터를 넣어두는 용도로 많이 사용합니다
+</div>
+</details>
 
+<details>
+<summary>MySQL을 왜썼나요? 다른 선택지는 없었나요?</summary>
+<div markdown="1">
+비교적 설치와 관리가 쉽고 안정성을 가지고 있으며 레퍼런스가 많았습니다
+또한 저희가 진행하는 작은 프로젝트 단위에 더 적합하다 생각했습니다
+</div>
+</details>
+
+<details>
+<summary>MySQL과 postgreSQL 차이</summary>
+<div markdown="1">
+MySQL은 설치와 관리과 비교적 쉽고, 빠르며 안정성을 가진 데이터베이스입니다
+postgreSQL은 복잡한 쿼리와 대규모 데이터베이스를 다룰 수 있는 기능이 풍부한 데이터베이스입니다
+</div>
+</details>
+
+<details>
+<summary>커밋, 롤백 이 무엇인가요?</summary>
+<div markdown="1">
+커밋 : 모든 작업을 정상적으로 처리하겠다고 확정하는 연산 입니다
+롤백 : 트랜잭션 과정 중 문제가 생겼을때 처리를 시작하기 이전 상태로 되돌리는 연산 입니다
 </div>
 </details>
 
