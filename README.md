@@ -300,6 +300,20 @@ SQL 쿼리문으로 간단하게 수행이 가능해 지기 때문이다
 </details>
 
 <details>
+<summary>Redis가 무엇인가요</summary>
+<div markdown="1">
+
+</div>
+</details>
+
+<details>
+<summary>캐싱이 무엇인가요</summary>
+<div markdown="1">
+
+</div>
+</details>
+
+<details>
 <summary>Redis의 작동원리 및 프로젝트에 왜 사용했는지?</summary>
 <div markdown="1">
 먼저 저희 프로젝트에서는 클라이언트 들에게 산을 추천해주는 태그라는 기능이 있는데
@@ -359,6 +373,68 @@ postgreSQL은 복잡한 쿼리와 대규모 데이터베이스를 다룰 수 있
 <br>
 
 ## JPA
+<details>
+<summary>JPA란 무엇인가요?</summary>
+<div markdown="1">
+<p>JPA는 자바 진영의 ORM 기술 표준으로 사용되는 인터페이스 모음입니다</p>
+<p>DB와 객체지향 개발을 연결해주어
+두 분야의 개발이 독립적으로 이루어 질 수 있게</p>
+<p>해주는 역할을 하며 쿼리를 직접 작성하지 않아도 되어
+유지보수와 생산성을 높일 수 있습니다</p>
+<p>따라서 객체 중심적인 개발을 할때 사용합니다</p>
+</div>
+</details>
+
+<details>
+<summary>JPA의 장점/단점</summary>
+<div markdown="1">
+<p>객체 모델을 이용하여 비즈니스 로직을 구성하는데만 집중이 가능합니다</p>
+<p>쿼리를 직접 작성하지 않아서 생산성과 유지보수성이 올라가고</p>
+<p>특정 데이터베이스에 종속되지 않다는 장점이 있습니다</p>
+<p>단점으로는 개발자가 의도하지 않은 자동으로 생성된 쿼리로 인해</p>
+<p>성능이 저하될 수 있고 복잡한 상황에서는 직접 쿼리를 쓰는게</p>
+<p>나을 수 있는것이 단점이라고 볼 수 있습니다</p>
+</div>
+</details>
+
+<details>
+<summary>영속성 컨텍스트란 무엇인가요?</summary>
+<div markdown="1">
+<p>엔티티를 영구 저장하는 환경이라는 뜻입니다</p>
+<p>애플리케이션과 데이터베이스 사이에서
+객체를 보관하는 가상의 데이터베이스 같은 역할을 합니다</p>
+<p>엔티티 매니저를 통해 엔티티를 저장하거나 조회하면</p>
+<p>엔티티 매니저는 영속성 컨텍스트에 엔티티를 보관하고 관리합니다</p>
+</div>
+</details>
+
+<details>
+<summary>플러시는 무엇인가요?</summary>
+<div markdown="1">
+<p>영속성 컨텍스트의 변경 내용을 데이터베이스에 반영하는것 입니다</p>
+<p>영속성 컨텍스트의 엔티티를 지우는 것이 아니라</p>
+<p>변경 내용을 데이터베이스에 동기화 하는 것입니다</p>
+</div>
+</details>
+
+<details>
+<summary>Hibernate는 무엇인가요?</summary>
+<div markdown="1">
+<p>JPA 구현체의 한 종류입니다</p>
+<p>JPA가 DB와 자바 객체를 매핑하기 위한 인터페이스이고</p>
+<p>Hibernate는 이를 구현한 라이브러리입니다</p>
+</div>
+</details>
+
+<details>
+<summary>Spring Data JPA는 무엇인가요?</summary>
+<div markdown="1">
+<p>JPA를 편하게 쓰기 위한 모듈입니다</p>
+<p>엔티티매니저가 아닌 레포지토리를 정의하여 사용합니다</p>
+<p>물론 레포지토리 내부적으로는 엔티티매니저를 사용합니다</p>
+</div>
+</details>
+
 <details>
 <summary>JPA는 언제 필요하고 언제 필요하지 않은지 설명해주실 수 있을까요?</summary>
 <div markdown="1">
@@ -660,9 +736,49 @@ Signature 에는 헤더, 페이로드를 Base64 URL-safe 인코드를 한 이후
 </details>
 
 <details>
-<summary> </summary>
+<summary>CI / CD란 무엇인가요?</summary>
+<div markdown="1">
+<p>CI는 지속적인 통합이라고 해서 개발자가 동시에 코드 작업을 할때</p>
+<p>변경된 내용이 정기적으로 빌드 및 테스트를 거쳐 공유 레포지토리에 병합되는 것을 뜻합니다</p>
+<p>CD는 지속적인 배포라고 해서 CI를 통해 빌드된 결과물을 프로덕션으로 배포하는 작업을 자동화 하는 것입니다</p>
+</div>
+</details>
+
+<details>
+<summary>CI / CD 툴은 어떤걸 사용했나요? 왜 사용했나요? 다른 대안은 없었나요?</summary>
+<div markdown="1">
+<p>깃허브 액션을 사용했습니다</p>
+<p>젠킨스나 트레비스 씨아이와 같은 다른 툴들도 있었지만</p>
+<p>깃허브와 바로 연동할 수 있고 상대적으로 설정도 간편하며</p>
+<p>저희 프로젝와같이 작은 규모일때 조금 더 맞다고 판단해서 깃허브 액션을 이용했습니다</p>
+</div>
+</details>
+
+<details>
+<summary>swap 메모리란 무엇인가요?</summary>
+<div markdown="1">
+<p>스왑메모리는 메모리가 부족할 경우 하드디스크의 일부 공간을 활용하여
+작업을 도와주는 공간을 의미합니다</p>
+<p>하드디스크 일부를 사용하다보니 RAM처럼 빠르지는 않지만
+실제 메모리보다 더 많은 공간을 사용할 수 있습니다</p>
+</div>
+</details>
+
+<details>
+<summary>어떤 배포 방식을 사용했고 왜 사용했나요?</summary>
 <div markdown="1">
 
+</div>
+</details>
+
+<details>
+<summary>다운타임은 무엇인가요?</summary>
+<div markdown="1">
+<p>버전1이 8081 포트에서 돌아가고 있는 중에</p>
+<p>버전2를 만들어 8081 포트에 올려 돌리려하면</p>
+<p>기존의 버전1 프로세스를 종료해야합니다</p>
+<p>이때 버전1이 종료되고 버전2가 실행되는 그 사이</p>
+<p>즉 유저가 서비스를 이용할 수 없는 시간을 뜻합니다</p>
 </div>
 </details>
 
