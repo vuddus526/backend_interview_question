@@ -94,13 +94,86 @@ JVM의 구조는 클래스 로더(Class Loader), 실행 엔진(Execution engine)
 </details>
 
 <details>
-<summary> </summary>
+<summary>객체지향프로그램이란 무엇인가요?</summary>
 <div markdown="1">
-
+<p>프로그래밍에서 필요한 데이터를 추상화 시켜 (클래스로)</p>
+<p>상태(변수) 와 행위(메서드)를 가진 객체(인스턴스 화)를 만들고</p>
+<p>그 객체들 간의 유기적인 상호작용을 통해 로직을 구성하는 프로그래밍 방법이다</p>
 </div>
 </details>
 
+<details>
+<summary>객체 지향 프로그래밍 했을때의 장점 / 단점 무엇인가요?</summary>
+<div markdown="1">
+<p>장점</p>
+<p>코드 재사용이 용이하다 (상속을 통해 확장하거나 클래스 이용)</p>
+<p>유지보수가 좋다 (클래스 내부의 변수, 메서드를 수정하면되기에)</p>
+<p>대형 프로젝트에 적합하다 (API별로 나눠서 업무 분담이 쉽기 때문에)</p>
+<p>단점</p>
+<p>처리 속도가 상대적으로 느리다</p>
+<p>설계시 많은 시간과 노력이 필요하다</p>
+<p>객체가 많으면 용량이 커질 수 있다</p>
+</div>
+</details>
 
+<details>
+<summary>객체지향 프로그래밍 4대 특징은 무엇인가요?</summary>
+<div markdown="1">
+<p>캡슐화</p>
+<p>데이터와 코드의 형태를 외부로부터 알 수 없게 하고
+데이터의 구조와 역할, 기능을 하나의 캡슐 형태로 만드는 것이다</p>
+<p>추상화</p>
+<p>공통의 속성이나 기능을 묶어 이름을 붙이는 것이다</p>
+<p>객체지향 관점에서 클래스를 정의하는 것이다</p>
+<p>상속화</p>
+<p>부모 클래스에 정의된 변수 및 메서드를
+자식 클래스에서 상속받아 사용하는 것이다</p>
+<p>다형성</p>
+<p>다양한 형태로 표현이 가능한 구조를 말한다</p>
+<p>오버로딩, 오버라이딩을 예로 들 수 있다</p>
+</div>
+</details>
+
+<details>
+<summary>객체지향 프로그래밍 5대 원칙은 무엇인가요?</summary>
+<div markdown="1">
+<p>1) 단일 책임 원칙</p>
+<p>한 클래스는 하나의 책임만 가져야한다</p>
+<p>ex) 사람 클래스는 사람의 역할만 충실히 한다</p>
+<p>2) 개방 폐쇄 원칙</p>
+<p>확장에는 열려있고 변경에는 닫혀 있어야 한다</p>
+<p>ex) 기능을 더 추가는 할 수 있어도 바꾸는건 함부로 못한다</p>
+<p>3) 리스코프 치환 원칙</p>
+<p>상위 타입의 객체를 하위 타입의 객체로 치환해도
+상위 타입을 사용하는 프로그램은 정상적으로 작동해야 한다</p>
+<p>ex) 어떤 메서드에 Item 이라는 상위 타입으로 받고 있는데
+apple 이라는 하위 타입으로 바뀌어 넘어와도 동작해야한다</p>
+<p>4) 인터페이스 분리 원칙</p>
+<p>인터페이스는 그 인터페이스를 사용하는
+클라이언트를 기준으로 분리해야한다</p>
+<p>ex) 3명의 클라이언트가 하나의 인터페이스를 상속받기보다
+각 클라이언트 별로 인터페이스를 분리해야한다</p>
+<p>5) 의존 역전 원칙</p>
+<p>추상화에 의존해야 하고 구체화에 의존하면 안된다</p>
+<p>ex) 자동차가 스노우 타이어(구체화)에 의존하는게 아니라
+타이어(추상화)에 의존해야하는 것이다</p>
+</div>
+</details>
+
+<details>
+<summary>getter, setter를 사용하는 이유는 무엇인가요?</summary>
+<div markdown="1">
+<p>객체의 무결성을 보장하기 위해 사용한다</p>
+<p>무결성은 데이터의 정확성과 일관성을 유지하고 보증하는 것이다</p>
+<p>정확성은 중복이나 누락이 없는 상태이고
+일관성은 원인과 결과의 의미가 연속적으로 보장되어 변하지 않는 상태이다</p>
+<p>getter는 필드의 값을 숨긴채 값을 꺼낼 수있고
+setter는 필드를 private로 만들어 외부 접근을 제한하고
+setter로 값을 받아 가공해 넣을 수 있다</p>
+<p>그러나 무분별한 setter는 무결성을 해칠 수 있기에 사용하지 말아야한다</p>
+<p>builder 패턴이나 개방폐쇄원칙으로 처리해야한다</p>
+</div>
+</details>
 
 <br>
 
@@ -572,7 +645,7 @@ UDP는 비연결형 서비스로 신뢰성이 없기에 실시간 서비스 같�
 </details>
 
 <details>
-<summary> </summary>
+<summary>HTTP란 무엇인가요?</summary>
 <div markdown="1">
 
 </div>
@@ -702,7 +775,14 @@ Signature 에는 헤더, 페이로드를 Base64 URL-safe 인코드를 한 이후
 </details>
 
 <details>
-<summary> </summary>
+<summary>JWT가 무엇인가요?</summary>
+<div markdown="1">
+
+</div>
+</details>
+
+<details>
+<summary>JWT 동작원리가 무엇인가요?</summary>
 <div markdown="1">
 
 </div>
@@ -723,6 +803,20 @@ Signature 에는 헤더, 페이로드를 Base64 URL-safe 인코드를 한 이후
 
 <details>
 <summary>웹 통신의 큰 흐름 https://www.google.com/ 을 접속할 때 일어나는 일</summary>
+<div markdown="1">
+
+</div>
+</details>
+
+<details>
+<summary>restful API란 무엇인가요?</summary>
+<div markdown="1">
+
+</div>
+</details>
+
+<details>
+<summary>에자일이란 무엇인가요?</summary>
 <div markdown="1">
 
 </div>
