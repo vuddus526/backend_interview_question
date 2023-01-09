@@ -175,6 +175,41 @@ setter로 값을 받아 가공해 넣을 수 있다</p>
 </div>
 </details>
 
+<details>
+<summary>Error와 Exception의 차이를 설명하시오</summary>
+<div markdown="1">
+<p></p>
+</div>
+</details>
+
+<details>
+<summary>hashMap과 hashtable의 차이를 설명하시오</summary>
+<div markdown="1">
+<p></p>
+</div>
+</details>
+
+<details>
+<summary>String, StringBuffer, StringBuilder의 차이를 설명하시오</summary>
+<div markdown="1">
+<p></p>
+</div>
+</details>
+
+<details>
+<summary>쓰레드 동기화란 무엇인가요</summary>
+<div markdown="1">
+<p></p>
+</div>
+</details>
+
+<details>
+<summary>제네릭이 무엇인가요</summary>
+<div markdown="1">
+<p></p>
+</div>
+</details>
+
 <br>
 
 ## 스프링
