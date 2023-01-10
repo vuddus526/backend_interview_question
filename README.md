@@ -636,7 +636,7 @@ A계좌에서 돈을 마이너스하고 B계좌에 플러스 할 수 있어 이�
 </details>
 
 <details>
-<summary> </summary>
+<summary>싱글스레드와 멀티스레드가 무엇인가요?</summary>
 <div markdown="1">
 
 </div>
