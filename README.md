@@ -408,16 +408,27 @@ SQL 쿼리문으로 간단하게 수행이 가능해 지기 때문이다
 </details>
 
 <details>
-<summary>Redis가 무엇인가요</summary>
+<summary>Redis가 무엇인가요?</summary>
 <div markdown="1">
-
+<p>Redis는 REmote Dictionary Server의 약자로 오픈소스 DBMS입니다</p>
+<p>NoSQL DBMS로 분류되며 In-Memory 기반의 Key-Value 구조를 가진 DBMS입니다</p>
 </div>
 </details>
 
 <details>
-<summary>캐싱이 무엇인가요</summary>
+<summary>캐싱이 무엇인가요?</summary>
 <div markdown="1">
+<p>캐시란 한번 조회된 데이터를 미리 특정 공간에 저장해 놓고</p>
+<p>똑같은 요청이 발생하게 되면 서버에게 다시 요청하지 말고</p>
+<p>저장해놓은 데이터를 제공해서 빠르게 서비스를 제공해주는것을 말합니다</p>
+</div>
+</details>
 
+<details>
+<summary>캐시미스, 캐시히트 가 무엇인가요?</summary>
+<div markdown="1">
+<p>캐시미스는 메모리에 찾고자 하는 데이터가 없어서 디스크에 조회 할때를 의미하고</p>
+<p>캐시히트는 메모리에 찾고자 하는 데이터가 있을때를 의미합니다</p>
 </div>
 </details>
 
