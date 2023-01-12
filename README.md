@@ -103,6 +103,15 @@ JVM의 구조는 클래스 로더(Class Loader), 실행 엔진(Execution engine)
 </details>
 
 <details>
+<summary>객체지향이 지향하는 바 무엇인가요?</summary>
+<div markdown="1">
+<p>쉽게 정의하면 객체지향은 의존성 관리라고 말할 수 있습니다</p>
+<p>객체지향으로 의존성을 관리함으로써 변경 영향을 최소화하고 객체마다 독립적인 개발이 가능해집니다</p>
+<p>이로인해 유지보수성과 확장성을 가질 수 있습니다</p>
+</div>
+</details>
+
+<details>
 <summary>객체 지향 프로그래밍 했을때의 장점 / 단점 무엇인가요?</summary>
 <div markdown="1">
 <p>장점</p>
