@@ -515,6 +515,13 @@ postgreSQL은 복잡한 쿼리와 대규모 데이터베이스를 다룰 수 있
 </div>
 </details>
 
+<details>
+<summary>데이터베이스 옵티마이저는 무엇인가요?</summary>
+<div markdown="1">
+
+</div>
+</details>
+
 <br>
 
 ## JPA
@@ -718,6 +725,13 @@ UDP는 비연결형 서비스로 신뢰성이 없기에 실시간 서비스 같�
 
 <details>
 <summary>HTTP란 무엇인가요?</summary>
+<div markdown="1">
+
+</div>
+</details>
+
+<details>
+<summary>put, patch 의 차이는 무엇인가요?</summary>
 <div markdown="1">
 
 </div>
