@@ -962,12 +962,20 @@ API를 서버에 요청할 때 Authorization header에 Access Token을 담아 �
 <details>
 <summary>웹 통신의 큰 흐름 https://www.google.com/ 을 접속할 때 일어나는 일</summary>
 <div markdown="1">
-
+<p>1) 브라우저 검색창에 www.google.com  을 입력 후 엔터를 친다</p>
+<p>2) 브라우저는 캐싱된 DNS 기록을 체크한다</p>
+<p>3) 없으면 ISP에서 제공하는 DNS 서버에서 다른 DNS 서버들로
+해당 DNS 정보를 찾으려 DNS query를 보낸다</p>
+<p>4) 찾으면 브라우저와 서버가 TCP 연결을 한다</p>
+<p>5) 연결 되었으면 브라우저가 서버에 HTTP 요청을 한다</p>
+<p>6) 서버가 요청을 처리하고 response를 생성한다</p>
+<p>7) 서버가 HTTP response를 보낸다</p>
+<p>8) 브라우저가 HTML content를 보여준다</p>
 </div>
 </details>
 
 <details>
-<summary>restful API란 무엇인가요?</summary>
+<summary>RestAPI란 무엇인가요?</summary>
 <div markdown="1">
 
 </div>
