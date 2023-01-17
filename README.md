@@ -187,7 +187,9 @@ setter로 값을 받아 가공해 넣을 수 있다</p>
 <details>
 <summary>Error와 Exception의 차이를 설명하시오</summary>
 <div markdown="1">
-<p></p>
+<p>Error는 실행 중 일어날 수 있는 치명적 오류를 말합니다. 컴파일 시점에 체크할 수 없고</p>
+<p>오류가 발생하면 프로그램은 비정상 종료되며 예측 불가능한 UncheckedException에 속합니다</p>
+<p>반면, Exception은 Error보다 비교적 경미한 오류이며, try-catch를 이용해 프로그램의 비정상 종료를 막을 수 있습니다.</p>
 </div>
 </details>
 
@@ -201,7 +203,9 @@ setter로 값을 받아 가공해 넣을 수 있다</p>
 <details>
 <summary>String, StringBuffer, StringBuilder의 차이를 설명하시오</summary>
 <div markdown="1">
-<p></p>
+<p>String은 불변의 속성을 가지며, StringBuffer와 StringBuilder는 가변의 속성을 가집니다.</p>
+<p>StringBuffer는 동기화를 지원하여 멀티 쓰레드 환경에서 주로 사용하며</p>
+<p>StringBuilder는 동기화를 지원하지 않아 싱글 쓰레드 환경에서 주로 사용합니다</p>
 </div>
 </details>
 
@@ -215,7 +219,28 @@ setter로 값을 받아 가공해 넣을 수 있다</p>
 <details>
 <summary>제네릭이 무엇인가요</summary>
 <div markdown="1">
-<p></p>
+<p>제네릭은 데이터의 타입을 하나로 지정하지 않고 사용할 때마다 범용적이고 포괄적으로 지정한다는 의미입니다</p>
+<p>제네릭 타입을 사용함으로써 잘못된 타입이 사용될 수 있는 문제를 컴파일 과정에서 제거할 수 있어 에러를 사전에 방지할 수 있습니다</p>
+</div>
+</details>
+
+<details>
+<summary>람다는 무엇인가요</summary>
+<div markdown="1">
+<p>간단히 말해 메소드를 하나의 식으로 표현한 것입니다</p>
+<p>메소드의 이름이 필요 없기 때문에, 람다식은 익명 함수(Anonymous Function)의 한 종류라고 볼 수 있습니다</p>
+<p>불필요한 코드를 줄이고, 가독성을 높이기 위함으로 말씀드릴 수 있습니다</p>
+</div>
+</details>
+
+<details>
+<summary>접근제한자는 무엇인가요</summary>
+<div markdown="1">
+<p>변수 또는 메소드의 접근 범위를 설정해주기 위해서 사용하는 Java의 예약어를 의미하며, 총 4 가지 종류가 있습니다</p>
+<p>public - 접근 제한이 없다. (같은 프로젝트 내 어디서든 사용 가능)</p>
+<p>protected - 해당 패키지 내, 다른 패키지에서 상속받아 자손 클래스에서 접근 가능하다</p>
+<p>(default) - 해당 패키지 내에서만 접근 가능</p>
+<p>private - 해당 클래스에서만 접근 가능</p>
 </div>
 </details>
 
