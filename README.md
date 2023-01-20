@@ -707,14 +707,31 @@ RDB가 더 맞다고 판단해서 사용하였습니다</p>
 <details>
 <summary>HTTP란 무엇인가요?</summary>
 <div markdown="1">
-<p></p>
+<p>Hyper Text Transfer Protocol의 약자로</p>
+<p>인터넷에서 데이터를 주고받을 수 있는 프로토콜입니다</p>
+<p>프로토콜은 규칙이라고 생각하시면 됩니다</p>
+<p>이렇게 규칙을 정해두었기 때문에, 모든 프로그램이 이 규칙에 맞춰 개발해서 서로 정보를 교환할 수 있게 된 것입니다</p>
+</div>
+</details>
+
+<details>
+<summary>HTTP와 https의 차이점은 무엇인가요?</summary>
+<div markdown="1">
+<p>HTTP와 HTTPS의 차이점은 SSL 인증서입니다</p>
+<p>기존 HTTP는 서버에서 브라우저로 전송되는 정보가 암호화되지 않는 문제가 있습니다</p>
+<p>Http로 비밀번호나 주민등록번호 등을 주고 받으면 제 3자가 정보를 조회할 수 있습니다</p>
+<p>이를 해결하기위해 HTTPS는 SSL 인증서를 통해 통신을 암호화해 HTTP의 보안 문제를 해결한 프로토콜입니다</p>
 </div>
 </details>
 
 <details>
 <summary>put, patch 의 차이는 무엇인가요?</summary>
 <div markdown="1">
-<p></p>
+<p>put과 patch 메서드는 기존에 존재하던 자원에 업데이트를 합니다</p>
+<p>HTTP PUT 메서드는 요청 페이로드를 사용해 새로운 리소스를 생성하거나, 대상 리소스를 나타내는 데이터를 대체합니다</p>
+<p>HTTP PATCH 메소드는 리소스의 부분적인 수정을 할 때에 사용됩니다</p>
+<p>put의 경우 보내지 않은 값은 null로 대체됩니다</p>
+<p>patch는 보내지 않은 값은 그대로 유지되고 있습니다</p>
 </div>
 </details>
 
