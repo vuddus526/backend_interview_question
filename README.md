@@ -1033,6 +1033,32 @@ API를 서버에 요청할 때 Authorization header에 Access Token을 담아 �
 </div>
 </details>
 
+<details>
+<summary>Route53에 대해 아는데로 설명하시오</summary>
+<div markdown="1">
+<p>aws에서 제공하는 DNS 서비스입니다</p>
+<p>도메인 주소에 해당하는 ip 주소를 가지고 있다가</p>
+<p>도메인 주소가 들어왔을때 ip를 알려주는 것이라고 설명할 수 있습니다</p>
+</div>
+</details>
+
+<details>
+<summary>ELB 대해 아는데로 설명하시오</summary>
+<div markdown="1">
+<p>부하를 적절하게 분배해주는 장치입니다</p>
+<p>주요 특징에 부하분산 뿐만아니라 SSL 암복호화도 지원합니다</p>
+<p>저희 프로젝트에서는 80포트로 들어오면 443포트로 연결해서</p>
+<p>https로 접속할 수 있게 하는 역할로 활용했습니다</p>
+</div>
+</details>
+
+<details>
+<summary>DNS 대해 아는데로 설명하시오</summary>
+<div markdown="1">
+<p>사람이 읽을 수 있는 도메인 이름을 머신이 읽을 수 잇는 ip 주소로 변환 하는것 입니다</p>
+</div>
+</details>
+
 # 인성면접 관련질문
 <details>
 <summary>1분 자기소개를 해보세요</summary>
