@@ -192,7 +192,12 @@ setter로 값을 받아 가공해 넣을 수 있다</p>
 <details>
 <summary>hashMap과 hashtable의 차이를 설명하시오</summary>
 <div markdown="1">
-<p></p>
+<p>두가지 모두 key - value 형태이고 key는 중복될 수 없고, value는 중복될 수 있다는 특징이 있습니다</p>
+<p>HashMap은 동기화를 지원하지 않아 싱글스레드에 적합하고</p>
+<p>HashTable은 동기화를 지원해 멀티스레드에 적합 합니다</p>
+<p>하지만 HashTable은 컬렉션프레임워크가 나오기 이전부터 존재한 구형 버전이라</p>
+<p>HashMap에 비해 느리기에 멀티쓰레드에는 ConcurrentHashMap을 사용하는 것이 더 좋은 방법이라 알고있습니다</p>
+<p>이외의 차이로는 HashMap은 key에 null을 허용하지만 HashTable의 경우 key에 null을 허용하지 않습니다</p>
 </div>
 </details>
 
