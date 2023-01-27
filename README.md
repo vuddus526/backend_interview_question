@@ -982,14 +982,24 @@ API를 서버에 요청할 때 Authorization header에 Access Token을 담아 �
 <details>
 <summary>RestAPI란 무엇인가요?</summary>
 <div markdown="1">
-<p></p>
+<p>먼저 Rest는 Representational State Transfer의 약자이며</p>
+<p>자원을 이름(자원의 표현)으로 구분하여 해당 자원의 상태(정보)를 주고 받는 모든 것을 의미합니다</p>
+<p>API란 Application Programming Interface의 약자이며</p>
+<p>여러 프로그램들과 데이터베이스 그리고 기능들의 상호 통신 방법을 규정하고 도와주는 매개체입니다</p>
+<p>그래서 RestAPI는 Rest기반으로 서비스 API를 구현한 것이라고 보면됩니</p>
+<p>더 나아가 Restful 이란 RestAPI를 제공하는 웹 서비스를 Restful하다 라고 할 수 있다</p>
+<p>즉, REST 원리를 따르는 시스템은 RESTful이란 용어로 지칭됩니다</p>
 </div>
 </details>
 
 <details>
 <summary>에자일이란 무엇인가요?</summary>
 <div markdown="1">
-<p></p>
+<p>절차보다는 사람이 중심이 되는 방법론으로써</p>
+<p>작업 계획을 짧은 단위로 세우고</p>
+<p>시제품을 만들어 나가는 사이클을 반복함으로써</p>
+<p>고객의 요구 변화에 유연하고도</p>
+<p>신속하게 대응하는 개발방법론 입니다</p>
 </div>
 </details>
 
