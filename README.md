@@ -1201,10 +1201,3 @@ API를 서버에 요청할 때 Authorization header에 Access Token을 담아 �
 
 </div>
 </details>
-
-<details>
-<summary> </summary>
-<div markdown="1">
-
-</div>
-</details>
