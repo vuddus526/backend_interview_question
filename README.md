@@ -773,6 +773,20 @@ RDB가 더 맞다고 판단해서 사용하였습니다</p>
 </details>
 
 <details>
+<summary>GET과 POST의 차이점에 대해서 설명해보세요</summary>
+<div markdown="1">
+<p>GET요청은 서버에 존재하는 정보를 요청합니다. 이 때 반환되는 정보는 정보 자체가 아니라 정보의 표현입니다
+<p>일반적으로 Request Body는 입력하지 않는 것이 일반적이며, 레거시 시스템의 경우 요청을 받아들이지 않을 수 있습니다</p>
+<p>캐싱을 수행하기 때문에 캐싱되지 않는 요청은 GET 요청이 맞지 않을 수 있습니다</p>
+
+<p>POST요청은 서버에 정보를 생성하는 것을 요청합니다</p>
+<p>예전 HTTP 통신은 POST 요청으로 데이터 삭제, 수정도 form요청으로 같이 수행했습니다</p>
+<p>POST 요청은 서버의 상태를 변경시키기 때문에 멱등성이 유지되지 않습니다</p>
+<p>보통 Request Body에 요청하는 데이터를 담아 전송합니다</p>
+</div>
+</details>
+
+<details>
 <summary>put, patch 의 차이는 무엇인가요?</summary>
 <div markdown="1">
 <p>put과 patch 메서드는 기존에 존재하던 자원에 업데이트를 합니다</p>
