@@ -296,6 +296,15 @@ setter로 값을 받아 가공해 넣을 수 있다</p>
 </div>
 </details>
 
+<details>
+<summary>JSP, 서블릿의 차이를 설명해주세요</summary>
+<div markdown="1">
+<p>서블릿은 자바코드안에  HTML태그를 삽입하는것이</p>
+<p>JSP는 HTML 내부에 자바코드를 삽입하는 형식입니다</p>
+
+</div>
+</details>
+
 <br>
 
 ## 스프링
