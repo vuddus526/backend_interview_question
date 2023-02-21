@@ -309,6 +309,16 @@ setter로 값을 받아 가공해 넣을 수 있다</p>
 
 ## 스프링
 <details>
+<summary>Spring Boot와 Spring Framework의 차이점을 설명해주세요</summary>
+<div markdown="1">
+<p>가장 큰 차이점은 Auto Configuration의 차이인 것 같습니다</p>
+<p>Spring은 프로젝트 초기에 다양한 환경설정을 해야 하지만,</p>
+<p>Spring Boot는 설정의 많은 부분을 자동화하여 사용자가 편하게 스프링을 활용할 수 있도록 돕습니다</p>
+<p>spring boot starter dependency만 추가해주면 설정은 끝나고, 내장된 톰캣을 제공해 서버를 바로 실행할 수 있습니다</p>
+</div>
+</details>
+
+<details>
 <summary>DI와 IoC에 대해 아는 만큼 설명해주실 수 있을까요?</summary>
 <div markdown="1">
 <p>DI는 의존성 주입으로 스프링에서 외부(컨테이너) 에서 객체를 생성 후 주입 시켜주는 방식입니다</p>
