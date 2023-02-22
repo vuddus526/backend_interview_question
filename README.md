@@ -301,13 +301,25 @@ setter로 값을 받아 가공해 넣을 수 있다</p>
 <div markdown="1">
 <p>서블릿은 자바코드안에  HTML태그를 삽입하는것이</p>
 <p>JSP는 HTML 내부에 자바코드를 삽입하는 형식입니다</p>
-
 </div>
 </details>
 
 <br>
 
 ## 스프링
+<details>
+<summary>Spring Framework의 구조를 말해주세요</summary>
+<div markdown="1">
+<p>클라이언트가 http 요청이 들어오면 가장 먼저 디스패처 서블릿에서 요청을 받아 실제로 로직을 수행할 컴포넌트로 요청을 보내줍니다</p>
+<p>이때 핸들러 매핑이 작성된 여러 컨트롤러 중에서 로직을 수행할 컨트롤러를 확인해주는 컴포넌트입니다</p>
+<p>그후 컨트롤러에서 받아 서비스로 넘겨주고 필요한 로직을 거쳐 DAO로 보내집니다 그후 DB에 접근해 데이터를 가져와 역순으로 진행됩니다</p>
+<p>그리고 컨트롤러는 viewname과 model을 리턴해줍니</p>
+<p>Viewname을 리턴받은 DispatcherServlet은 ViewResolver로 어떤 View 파일을 활용할지 Viewname을 통해 확인합니다</p>
+<p>확인된 View파일과 Model을 이용하여 사용자에게 최종적으로 보여질 UI화면을 http response에 실어서 클라이언트에게 리턴해줍니다</p>
+<p>client에서는 http response를 받아서(텍스트형식) 결과를 파싱하는 등의 처리를 진행해서 최종적으로 사용자에게 화면을 표시해주게 됩니다</p>
+</div>
+</details>
+
 <details>
 <summary>Spring Boot와 Spring Framework의 차이점을 설명해주세요</summary>
 <div markdown="1">
