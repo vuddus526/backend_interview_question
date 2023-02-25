@@ -1268,3 +1268,45 @@ API를 서버에 요청할 때 Authorization header에 Access Token을 담아 �
 
 </div>
 </details>
+
+<details>
+<summary>특별한 추억의 장소가 있으신가요?</summary>
+<div markdown="1">
+
+</div>
+</details>
+
+<details>
+<summary>가장 행복했던 경험에 대해 말씀해 주세요</summary>
+<div markdown="1">
+
+</div>
+</details>
+
+<details>
+<summary>가장아끼는 물건에 대해 설명해주세요</summary>
+<div markdown="1">
+
+</div>
+</details>
+
+<details>
+<summary>내가 좋아하는 음식에 대해서 설명해주세요</summary>
+<div markdown="1">
+
+</div>
+</details>
+
+<details>
+<summary>무슨요일을 가장 좋아하나요?</summary>
+<div markdown="1">
+
+</div>
+</details>
+
+<details>
+<summary>어떤계절을좋아하나요?</summary>
+<div markdown="1">
+
+</div>
+</details>
