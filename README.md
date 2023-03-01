@@ -1310,3 +1310,24 @@ API를 서버에 요청할 때 Authorization header에 Access Token을 담아 �
 
 </div>
 </details>
+
+<details>
+<summary>어떤 기술에 관심이 있으며, 최근에 습득한 기술은 무엇인가요?</summary>
+<div markdown="1">
+
+</div>
+</details>
+
+<details>
+<summary>문제를 해결할 때 자신이 사용하는 방법과 접근 방식은 무엇인가요?</summary>
+<div markdown="1">
+
+</div>
+</details>
+
+<details>
+<summary>새로운 기술 도입이나 업그레이드를 진행할 때, 이를 팀원들에게 효과적으로 전달하는 방법은 무엇인가요?</summary>
+<div markdown="1">
+
+</div>
+</details>
