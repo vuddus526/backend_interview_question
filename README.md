@@ -1196,7 +1196,7 @@ API를 서버에 요청할 때 Authorization header에 Access Token을 담아 �
 </details>
 
 <details>
-<summary>IaaS, PaaS, SaaS 각각의 개념을 설명해주세</summary>
+<summary>IaaS, PaaS, SaaS 각각의 개념을 설명해주세요</summary>
 <div markdown="1">
 <p>Infrastructure as a Service(IaaS, 아이아스, 이에스)서비스로 제공되는 인프라스트럭처입니다. 개발사에 제공되는 물리적 자원을 가상화합니다</p>
 <p>Platform as a Service(PaaS, 파스)서비스로 제공되는 플랫폼입니다. 개발사에 제공되는 플랫폼을 가상화합니다</p>
