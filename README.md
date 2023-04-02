@@ -1116,6 +1116,22 @@ API를 서버에 요청할 때 Authorization header에 Access Token을 담아 �
 </details>
 
 <details>
+<summary>DDD를 설명하시오</summary>
+<div markdown="1">
+<p>도메인 주도 설계로서 도메인을 중심으로 설계해 나가는 것을 의미 합니다</p>
+<p>여러가지 도메인들이 서로 상호작용 하며, 설계하는 것이 바로 도메인 주도 설계입니다</p>
+<p>이 도메인 주도 설계에서의 특징은 같은 객체(Object or Class)가 여러 개가 존재할 수 있다는 것입니</p>
+<p>주문 도메인에서의 옷은 손님들에게 팔기 위한 객체 정보(name, price .. etc)들을 담고 있지만,
+옷을 관리하는 도메인에서는 옷은 점주 입장에서 관리하기 위한 객체 정보(madeTime, size, madeCountry ... etc)들을 위주로 담고 있습니다</p>
+<p>다시 말해서 문맥(Context)에 따라 객체(Object)의 역할은 바뀐다는 것입니다</p>
+<p>그래서 이를 외부로(public)으로 노출시키지 않고, package-private으로 내부에서만 알 수 있게 하는 것입니다</p>
+<p>서로 다른 도메인 영역에 영향을 끼치기 위해서는 API 호출로 해야 된다는 말입니다
+즉, 각각의 도메인은 서로 철저히 분리되고, 높은 응집력과 낮은 결합도로 변경과 확장에 용이한 설계를 얻게 됩니다</p>
+<p>DDD(Domain Driven Design)에서 핵심은 결국 도메인을 서비스로 별로 분리하라 입니다</p>
+</div>
+</details>
+
+<details>
 <summary>MSA 아키텍처에 대해 아는데로 설명하시오</summary>
 <div markdown="1">
 <p>MSA 아키텍처는 하나의 큰 애플리케이션을 여러 개의 작은 애플리케이션으로 쪼개어 변경과 조합이 가능하도록 만든 형태를 말합니다</p>
