@@ -1058,6 +1058,22 @@ API를 서버에 요청할 때 Authorization header에 Access Token을 담아 �
 </div>
 </details>
 
+<details>
+<summary>전자서명이란 무엇인가요?</summary>
+<div markdown="1">
+<p>전자서명이란 네트워크에서 송신자의 신원을 증명하는 방법입니다</p>
+<p>송신자가 자신의 비밀키로 암호화한 메세지를</p>
+<p>수신자가 송신자의 공용키로 해독하는 과정입니다</p>
+</div>
+</details>
+
+<details>
+<summary>해시함수란 무엇인가요?</summary>
+<div markdown="1">
+<p>임의의 길이를 갖는 데이터를 고정된 길이의 데이터로 변환시켜주는 함수입니다</p>
+</div>
+</details>
+
 <br>
 
 ## 기타
