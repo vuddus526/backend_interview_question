@@ -1074,6 +1074,13 @@ API를 서버에 요청할 때 Authorization header에 Access Token을 담아 �
 </div>
 </details>
 
+<details>
+<summary>DID 란 무엇인가요?</summary>
+<div markdown="1">
+<p>탈중앙화 신원증명으로 개인 정보를 개인이 가지고 인증시 필요한 정보만 제출하는 기술입니다</p>
+</div>
+</details>
+
 <br>
 
 ## 기타
