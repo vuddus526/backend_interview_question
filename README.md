@@ -805,6 +805,15 @@ RDB가 더 맞다고 판단해서 사용하였습니다</p>
 </details>
 
 <details>
+<summary>TCP 4 way handshake란 무엇인지 설명해주실 수 있을까요?</summary>
+<div markdown="1">
+<p>3 way handshake로 연결한 통신을 해제할때 사용합니다</p>
+<p>과정은 fin -> ack -> fin -> ack 방식으로 4번 진행됩니다</p>
+
+</div>
+</details>
+
+<details>
 <summary>TCP 와 UDP 를 비교하여 설명해주실 수 있을까요?</summary>
 <div markdown="1">
 <p>먼저 TCP는 인터넷상에서 데이터를 메세지의 형태로 보내기 위해 IP와 함께 사용하는 프로토콜입니다</p>
