@@ -1251,6 +1251,20 @@ API를 서버에 요청할 때 Authorization header에 Access Token을 담아 �
 </details>
 
 <details>
+<summary>ELB, CLB, NLB, ALB</summary>
+<div markdown="1">
+<p>ELB는 CLB, NLB, ALB 와 최근에 합류한 GWLB까지 총 4개의 종류가 있습니다</p>
+<p>CLB는 가장 오래된 로드밸런서로 ELB의 가장 기본적인 형태라고 말할 수 있습니다
+4 계층부터 L7계층까지 로드밸런싱이 가능합니다
+현재는 잘 쓰이지 않는 추세입니다</p>
+<p>NLB는 Network가 붙은것 처럼, NLB는 L4계층 (Network Layer)에서 작동합니다
+TCP/UDP 트래픽을 로드밸런싱하여 내부 인스턴스로 전달합니다</p>
+<p>ALB는 Application이 붙은것 처럼, ALB는 L7계층 (Application Layer)에서 작동합니다
+HTTP/HTTPS 트래픽을 처리하는 로드밸런싱에 최적화 되어 있습니다</p>
+</div>
+</details>
+
+<details>
 <summary>DNS 대해 아는데로 설명하시오</summary>
 <div markdown="1">
 <p>사람이 읽을 수 있는 도메인 이름을 머신이 읽을 수 잇는 ip 주소로 변환 하는것 입니다</p>
