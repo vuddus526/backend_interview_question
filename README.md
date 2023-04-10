@@ -1302,6 +1302,15 @@ HTTP/HTTPS 트래픽을 처리하는 로드밸런싱에 최적화 되어 있습�
 </div>
 </details>
 
+<details>
+<summary>String은 왜 import 없이도 사용가능한가요?</summary>
+<div markdown="1">
+<p>String 이나 System 클래스는 자바의 가장 기본패키지인 java.lang 패키지에 있기 때문에 import가 생략 가능합니다</p>
+<p>lib 폴더에 가보면 jrt-fs.jar(구버전은 rt.jar) 가 잇는데 이 jar 파일 안에 java에서 사용하는 클래스들이 압축 되어 있습니다</p>
+<p>String 같은 경우에는 java.lang 안에 String.class 형태로 저장되어 있습니다</p>
+</div>
+</details>
+
 # 인성면접 관련질문
 <details>
 <summary>1분 자기소개를 해보세요</summary>
