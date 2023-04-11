@@ -1311,6 +1311,15 @@ HTTP/HTTPS 트래픽을 처리하는 로드밸런싱에 최적화 되어 있습�
 </div>
 </details>
 
+<details>
+<summary>API와 Endpoint의 차이가 무엇인가요?</summary>
+<div markdown="1">
+<p>API는 프로그램 혹은 시스템 간의 통신하는 창구라고 볼 수 있습니다</p>
+<p><즉, 프로그램들이 서로 상호작용하는 것을 도와주는 매개체라 할 수 있습니다</p>
+<p>Endpoint는 API가 서버에서 리소스에 접근할 수 있도록 가능하게 하는 URL이라 할 수 있습니다</p>
+</div>
+</details>
+
 # 인성면접 관련질문
 <details>
 <summary>1분 자기소개를 해보세요</summary>
