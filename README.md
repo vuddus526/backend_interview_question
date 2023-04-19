@@ -1334,6 +1334,15 @@ HTTP/HTTPS 트래픽을 처리하는 로드밸런싱에 최적화 되어 있습�
 </div>
 </details>
 
+<details>
+<summary>HTML의 약자는 무엇인가요?</summary>
+<div markdown="1">
+<p>Hyper Text Markup Language</p>
+</div>
+</details>
+
+
+
 # 인성면접 관련질문
 <details>
 <summary>1분 자기소개를 해보세요</summary>
