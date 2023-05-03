@@ -380,7 +380,7 @@ setter로 값을 받아 가공해 넣을 수 있다</p>
 <details>
 <summary>Spring Security의 구조와 JWT 발급 과정에 대해 설명해주실 수 있을까요?</summary>
 <div markdown="1">
-// 추후 내용 더 추가예정
+// 추가예정
 </div>
 </details>
 
