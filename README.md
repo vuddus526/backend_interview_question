@@ -1342,7 +1342,7 @@ HTTP/HTTPS 트래픽을 처리하는 로드밸런싱에 최적화 되어 있습�
 <details>
 <summary>HTML의 약자는 무엇인가요?</summary>
 <div markdown="1">
-<p>Hyper Text Markup Language</p>
+<p>Hyper Text Markup Language 입니다</p>
 </div>
 </details>
 
