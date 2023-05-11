@@ -1120,7 +1120,7 @@ API를 서버에 요청할 때 Authorization header에 Access Token을 담아 �
 </details>
 
 <details>
-<summary>웹 통신의 큰 흐름 https://www.google.com/ 을 접속할 때 일어나는 일</summary>
+<summary>웹 통신의 큰 흐름 https://www.google.com/ 을 접속할 때 일어나는 일을 설명 해주세요</summary>
 <div markdown="1">
 <p>1) 브라우저 검색창에 www.google.com  을 입력 후 엔터를 친다</p>
 <p>2) 브라우저는 캐싱된 DNS 기록을 체크한다</p>
